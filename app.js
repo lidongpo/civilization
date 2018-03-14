@@ -1,4 +1,3 @@
-//注释
 const fs = require('fs');
 const path = require('path');
 const Koa = require('koa');
