@@ -1,7 +1,8 @@
+//注释
 const fs = require('fs');
 const path = require('path');
 const Koa = require('koa');
-const app = new Koa();
+const app = new Koa()
 const bodyPrser = require('koa-bodyparser');
 const controllers = require('./server/controllers')
 
