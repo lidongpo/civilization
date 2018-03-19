@@ -6,8 +6,13 @@ Vue.use(Router)
 
 export default new Router({
     routes: [{
+        path: '/:type',
+        name: 'Content',
+        component: Content,
+    }, {
         path: '/',
         name: 'Content',
-        component: Content
-    }]
+        component: Content,
+    }],
+    linkActiveClass: 'active'
 })

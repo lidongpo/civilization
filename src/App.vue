@@ -24,7 +24,7 @@ body,ul{
   padding: 0;
 }
 body{
-  color: #222;
+  color: #05161c;
   background-color: #fbf7f0;
 }
 a:active{
